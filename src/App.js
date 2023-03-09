@@ -1,10 +1,8 @@
-
+import NavBar from "./NavBar/NavBar"
 
 function App() {
   return (
-    <div className="App">
-     blog app
-    </div>
+ <NavBar/>
   );
 }
 
