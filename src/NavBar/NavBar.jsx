@@ -20,8 +20,8 @@ export default function NavBar() {
         </div>
 
       <div className='topRight'>
-        <img className="topImage" src="" alt="" />
-        <i className="fa-solid fa-magnifying-glass"></i>
+        <img className="topImg" src="https://www.shutterstock.com/image-vector/man-icon-vector-600w-1040084344.jpg" alt="" />
+        <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
       </div>
     </div>
   )
