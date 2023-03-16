@@ -7,6 +7,7 @@ export default function NavBar() {
         <i className="topIcon fa-brands fa-facebook-f"></i>
         <i className="topIcon fa-brands fa-twitter"></i>
         <i className="topIcon fa-brands fa-square-instagram"></i>
+        <img src="./assets/MotorMeetUp.png" alt="" />
         </div>
 
       <div className='topCenter'>
@@ -20,7 +21,7 @@ export default function NavBar() {
         </div>
 
       <div className='topRight'>
-        <img className="topImg" src="https://www.shutterstock.com/image-vector/man-icon-vector-600w-1040084344.jpg" alt="" />
+        <img className="topImg" src="https://www.shutterstock.com/image-vector/man-icon-vector-600w-1040084344.jpg" alt="Place holder user profile pic" />
         <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
       </div>
     </div>
