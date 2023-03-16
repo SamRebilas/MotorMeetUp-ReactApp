@@ -7,7 +7,7 @@ export default function NavBar() {
         <i className="topIcon fa-brands fa-facebook-f"></i>
         <i className="topIcon fa-brands fa-twitter"></i>
         <i className="topIcon fa-brands fa-square-instagram"></i>
-        <img src="./assets/MotorMeetUp.png" alt="" />
+        <i src="./assets/MotorMeetUp.png" alt=""></i><i/>
         </div>
 
       <div className='topCenter'>

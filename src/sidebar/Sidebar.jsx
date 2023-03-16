@@ -19,6 +19,12 @@ export default function Sidebar() {
       </div>
       <div className="sidebarItem">
         <span className="sidebarTitle">FOLLOW US</span>
+        <div className="sidebarSocial">
+        <i className="sidebarIcon fa-brands fa-facebook-f"></i>
+        <i className="sidebarIcon fa-brands fa-twitter"></i>
+        <i className="sidebarIcon fa-brands fa-square-instagram"></i>
+        <i src="./assets/MotorMeetUp.png" alt=""></i><i/>
+        </div>
       </div>
     </div>
   )
