@@ -30,6 +30,7 @@
 }
 .topCenter{
     flex: 6;
+    
 }
 .topList{
     display: flex;
@@ -43,6 +44,10 @@
     font-size: 18px;
     font-weight: 300;
     cursor: pointer;
+    
+}
+.topListItem:hover{
+    opacity: 50%;
 }
 .topSearchIcon{
     font-size: 18px;
