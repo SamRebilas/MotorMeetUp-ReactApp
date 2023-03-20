@@ -10,7 +10,7 @@ export default function Post() {
           
         </div>
         <span className="postTitle">Title Placeholder</span>
-        <p className='postDesc'>Post Description placeholder. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo veritatis quia suscipit labore?</p>
+        <p className='postDesc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda facilis tenetur sequi nihil nisi ratione doloribus officiis? Sapiente dolores expedita veritatis, voluptas delectus nisi laboriosam facere repellat nemo quasi quidem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur dicta soluta repellat sunt aperiam iste ullam, veritatis temporibus laboriosam tempore praesentium blanditiis facere itaque libero ipsum asperiores. Nisi, maxime architecto.</p>
         <hr />
         
         <span className="postDate">1 Day Ago</span>

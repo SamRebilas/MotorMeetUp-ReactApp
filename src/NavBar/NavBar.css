@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     font-family: sans-serif;
+    z-index: 999;
 }
 .topLeft, .topRight{
     flex: 3;
@@ -17,8 +18,8 @@
 }
 .topIcon{
     font-size: 20px;
-    margin-right: 10px;
-    color: #444;
+    margin-right: 15px;
+    color: #3a3838;
     cursor: pointer;
 }
 .topImg{
