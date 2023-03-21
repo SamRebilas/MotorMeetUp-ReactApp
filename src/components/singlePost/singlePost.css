@@ -1,0 +1,23 @@
+.singlePost{
+    flex: 9px;
+}
+.singlePostWrapper{
+    padding: 20px;
+    padding-right: 0;
+}
+.singlePostImage{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.singlePostTitle{
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+}
+.singlePostEditIcon{
+    float: right;
+    font-size: 18px;
+    margin-right: 5px;
+}
