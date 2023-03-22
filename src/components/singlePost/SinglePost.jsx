@@ -17,7 +17,7 @@ export default function SinglePost() {
         <br />
         <span className='singlePostDate'>Date:<b>3/21/2023</b></span>
     </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos reprehenderit sunt, suscipit sed inventore itaque, reiciendis hic sit nam repudiandae commodi asperiores dolorum deserunt minus soluta eligendi illo consequatur optio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nam aperiam, consequatur quisquam nobis illo ut laboriosam, alias veniam repudiandae incidunt amet dicta commodi maiores pariatur porro! Eveniet, minus nostrum?</p>
+    <p className="singlePostDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos reprehenderit sunt, suscipit sed inventore itaque, reiciendis hic sit nam repudiandae commodi asperiores dolorum deserunt minus soluta eligendi illo consequatur optio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nam aperiam, consequatur quisquam nobis illo ut laboriosam, alias veniam repudiandae incidunt amet dicta commodi maiores pariatur porro! Eveniet, minus nostrum?</p>
      </div>
     </div>
   )

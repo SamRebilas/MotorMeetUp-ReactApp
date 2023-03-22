@@ -16,8 +16,36 @@
     margin: 10px;
     font-size: 25px;
 }
-.singlePostEditIcon{
+.singlePostEdit{
     float: right;
     font-size: 18px;
-    margin-right: 5px;
+    
+}
+.singlePostEditIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.singlePostEditIcon:first-child{
+    color: rgb(20, 126, 126);
+
+}
+.singlePostEditIcon:last-child{
+    color: rgb(165, 4, 4);
+}
+.singlePostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    color: rgb(121, 128, 27);
+}
+.singlePostDesc{
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+.singlePostDesc::first-letter{
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: 600;
 }
