@@ -7,12 +7,20 @@ import Settings from "./pages/settings/Settings";
 import Write from "./pages/write/Write";
 import { BrowserRouter as Router,Route,Link,Routes } from "react-router-dom";
 function App() {
+  const user = false;
   return (
      <Router>
   <NavBar/>
   <Routes>
-  <Route path="/"/>
-           <Home/>
+  <Route exact path="/" element={<Home/>}/>
+  <Route  path="/register" element={<Register/>}/>
+  <Route  path="/write" element={<Write/>}/>
+  <Route  path="/single" element={<Single/>}/>
+  <Route  path="/login" element={<Login/>}/>
+  <Route  path="/settings" element={<Settings/>}/>
+  <Route  path="/post/:postId" element={<Single/>}/>
+  
+           
         
   </Routes>
   </Router>
