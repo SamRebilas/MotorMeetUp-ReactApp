@@ -5,14 +5,17 @@ import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Settings from "./pages/settings/Settings";
 import Write from "./pages/write/Write";
-
+import { BrowserRouter as Router,Route,Link,Routes } from "react-router-dom";
 function App() {
   return (
-     <>
+     <Router>
   <NavBar/>
-  
-  <Register/>
-  </>
+  <Routes>
+  <Route path="/"/>
+           <Home/>
+        
+  </Routes>
+  </Router>
   );
 }
 
