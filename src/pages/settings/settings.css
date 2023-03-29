@@ -36,6 +36,7 @@
     height: 70px;
     border-radius: 20px;
     object-fit: cover;
+    display: flex;
 }
 .settingsPPIcon{
     width: 25px;
